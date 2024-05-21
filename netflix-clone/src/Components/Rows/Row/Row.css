@@ -25,10 +25,10 @@ row_posters::-webkit-scrollbar {
 } 
 
 
- .row {
-    margin-left: 20px;
-    color: white;
-}
+.row_posterLarge:hover {
+    transform: scale(1.09);
+} 
+
 
 
 
