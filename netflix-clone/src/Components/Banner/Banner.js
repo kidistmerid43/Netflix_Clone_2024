@@ -45,7 +45,8 @@ const Banner = () => {
 			className="banner"
 			style={{
 				backgroundSize: "cover",
-				backgroundImage: movie?`url('https://image.tmdb.org/t/p/original${movie.backdrop_path}')`
+				backgroundImage: movie
+					? `url('https://image.tmdb.org/t/p/original${movie.backdrop_path}')`
 					: "",
 				backgroundPosition: "center",
 				backgroundRepeat: "no-repeat",
@@ -61,7 +62,7 @@ const Banner = () => {
 				</div>
 				<h1 className="banner_description">{truncate(movie?.overview, 150)}</h1>
 			</div>
-			<div className="bannerfadeBottom" />
+			<div className="banner_fadeBottom" />
 		</div>
 	);
 };
