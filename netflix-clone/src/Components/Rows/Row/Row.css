@@ -1,4 +1,4 @@
-/* Row.css */
+
 
 .row {
     margin-left: 20px;
@@ -6,7 +6,7 @@
 }
 
 .row h1 {
-    font-size: 2rem; /* Increased font size for Netflix style */
+    font-size: 2rem; 
     color: #fff; 
     margin-bottom: 20px;
 }
